@@ -1,0 +1,6 @@
+@use "../abstracts/variables" as variable;
+
+body {
+    margin: 0 5rem;
+    font-family: variable.$font-primary ;
+}
