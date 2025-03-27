@@ -20,6 +20,16 @@ body {
   font-family: "Lato";
 }
 
+h3 {
+  color: white;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .btn {
   border: 1px solid black;
   border-radius: 0.2rem;
@@ -69,6 +79,8 @@ body {
   background-image: url(../img/homme-assis-batiment.jpg);
   background-position: center;
   background-size: cover;
+  border-radius: 0.8rem;
+  text-align: center;
 }
 .trio-img .second-box {
   width: 50%;
@@ -76,14 +88,20 @@ body {
   flex-direction: column;
 }
 .trio-img .second-box .second-img {
+  height: 50%;
   background-image: url(../img/passport.jpg);
   background-position: center;
   background-size: cover;
+  border-radius: 0.8rem;
+  text-align: center;
 }
 .trio-img .second-box .third-img {
+  height: 50%;
   background-image: url(../img/montgolfiere.jpg);
   background-position: center;
   background-size: cover;
+  border-radius: 0.8rem;
+  text-align: center;
 }
 
 @font-face {

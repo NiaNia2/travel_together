@@ -48,6 +48,8 @@
         background-image: url(../img/homme-assis-batiment.jpg);
         background-position: center;
         background-size: cover;
+        border-radius: 0.8rem;
+        text-align: center;
     }
 
     .second-box {
@@ -56,15 +58,21 @@
         flex-direction: column;
 
         .second-img {
+            height: 50%;
             background-image: url(../img/passport.jpg);
             background-position: center;
             background-size: cover;
+            border-radius: 0.8rem;
+            text-align: center;
         }
 
         .third-img {
+            height: 50%;
             background-image: url(../img/montgolfiere.jpg);
             background-position: center;
             background-size: cover;
+            border-radius: 0.8rem;
+            text-align: center;
         }
     }
 }
