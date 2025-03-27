@@ -22,11 +22,34 @@ body {
 
 .btn {
   border: 1px solid black;
-  border-radius: 0.8rem;
+  border-radius: 0.2rem;
   background-color: white;
   box-shadow: 7px 8px 15px 0px #000000;
   text-decoration: none;
-  padding: 1rem;
+  padding: 0.5rem;
+  width: 19%;
+  color: black;
+}
+
+#phone {
+  background-color: #FA8072;
+  border-radius: 0.8rem;
+  width: 100%;
+  padding: 5rem;
+  display: flex;
+}
+#phone .phone-text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+#phone .i-phone {
+  width: 20%;
+}
+#phone .i-phone img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=style.css.map */

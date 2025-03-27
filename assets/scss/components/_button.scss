@@ -1,8 +1,12 @@
+@use "../abstracts/variables" as variables;
+
 .btn {
     border: 1px solid black;
-    border-radius: 0.8rem;
+    border-radius: 0.2rem;
     background-color: white;
     box-shadow: 7px 8px 15px 0px #000000;
     text-decoration: none;
-    padding: 1rem;
+    padding: 0.5rem;
+    width: 19%;
+    color: variables.$color-button;
 }
