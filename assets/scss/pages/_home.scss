@@ -1,20 +1,26 @@
 @use "../abstracts/variables" as variables;
 
-
+// section phone
 #phone {
     background-color: variables.$background-color-banner ;
-    border-radius: 0.8rem;
+    border-radius: variables.$border-radus-card;
     width: 100%;
     padding: 5rem;
     display: flex;
+    justify-content: space-between;
 
     .phone-text {
         display: flex;
         flex-direction: column;
         color: variables.$color-banner;
+        width: 50%;
+        gap: 5rem;
+
+
 
         h1 {
-            font-family: variables.$font-titre ;
+            font-family: variables.$font-titre;
+            font-size: 3rem;
         }
     }
 
@@ -25,8 +31,40 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
+
         }
     }
+}
 
+// Section sevices
 
+.trio-img {
+    display: flex;
+    justify-content: space-between;
+    height: 30vh;
+
+    .first-img {
+        width: 50%;
+        background-image: url(../img/homme-assis-batiment.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .second-box {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+
+        .second-img {
+            background-image: url(../img/passport.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .third-img {
+            background-image: url(../img/montgolfiere.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+    }
 }
