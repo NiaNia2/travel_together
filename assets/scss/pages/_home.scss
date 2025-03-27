@@ -12,6 +12,10 @@
         display: flex;
         flex-direction: column;
         color: variables.$color-banner;
+
+        h1 {
+            font-family: variables.$font-titre ;
+        }
     }
 
     .i-phone {
