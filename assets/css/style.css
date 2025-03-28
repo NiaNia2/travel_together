@@ -159,6 +159,8 @@ ul {
   background-color: #FA8072;
   border-radius: 0.8rem;
   margin-top: -10rem;
+  margin-bottom: -6rem;
+  position: relative;
   display: flex;
   justify-content: space-evenly;
 }
