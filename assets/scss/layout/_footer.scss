@@ -19,22 +19,17 @@ footer {
                 width: 100%;
             }
         }
-
-        div {
-
-            ul {
-                list-style: none;
-                display: flex;
-                gap: 2rem;
-                color: white;
-            }
-        }
     }
 
     .foot-foot {
-        img {
-            width: 1%;
-            filter: invert(100%) sepia(56%) saturate(2%) hue-rotate(226deg) brightness(117%) contrast(100%);
+
+        ul {
+            list-style: none;
+
+            img {
+                width: 1%;
+                filter: invert(100%) sepia(56%) saturate(2%) hue-rotate(226deg) brightness(117%) contrast(100%);
+            }
         }
     }
 }
