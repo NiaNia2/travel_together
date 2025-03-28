@@ -16,7 +16,7 @@ header nav ul {
 }
 
 body {
-  margin: 0rem 10rem 0rem 10rem;
+  margin: 0;
   font-family: "Lato";
 }
 
@@ -30,6 +30,11 @@ a {
   color: white;
 }
 
+.contenent {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .btn {
   border: 1px solid black;
   border-radius: 0.2rem;
@@ -41,29 +46,30 @@ a {
   color: black;
 }
 
-#phone {
+.phone {
   background-color: #FA8072;
   border-radius: 0.8rem;
-  width: 100%;
-  padding: 5rem;
   display: flex;
   justify-content: space-between;
+  overflow: hidden;
+  padding: 0.9rem 2rem;
 }
-#phone .phone-text {
+.phone .phone-text {
   display: flex;
   flex-direction: column;
   color: white;
   width: 50%;
   gap: 5rem;
 }
-#phone .phone-text h1 {
+.phone .phone-text h1 {
   font-family: "Lato-Bold";
   font-size: 3rem;
 }
-#phone .i-phone {
+.phone .i-phone {
   width: 20%;
+  margin-bottom: -10rem;
 }
-#phone .i-phone img {
+.phone .i-phone img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -73,6 +79,13 @@ a {
   display: flex;
   justify-content: space-between;
   height: 30vh;
+  gap: 0.5rem;
+}
+.trio-img .box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 .trio-img .first-img {
   width: 50%;
@@ -86,6 +99,7 @@ a {
   width: 50%;
   display: flex;
   flex-direction: column;
+  gap: 0.5rem;
 }
 .trio-img .second-box .second-img {
   height: 50%;
@@ -102,6 +116,35 @@ a {
   background-size: cover;
   border-radius: 0.8rem;
   text-align: center;
+}
+
+#features {
+  background-image: url(../img/wave.svg);
+}
+#features h2 {
+  text-align: end;
+}
+#features .features {
+  display: flex;
+  flex-direction: column;
+}
+#features .features .box-features {
+  display: flex;
+  justify-content: space-around;
+}
+#features .features .box-features .box-feature {
+  width: 20%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#features .features .box-features .box-feature h3 {
+  color: black;
+}
+#features .features .box-features .box-feature img {
+  width: 15%;
+  filter: invert(52%) sepia(9%) saturate(3669%) hue-rotate(320deg) brightness(123%) contrast(81%);
 }
 
 @font-face {

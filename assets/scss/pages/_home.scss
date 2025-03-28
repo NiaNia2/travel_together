@@ -1,13 +1,13 @@
 @use "../abstracts/variables" as variables;
 
 // section phone
-#phone {
+.phone {
     background-color: variables.$background-color-banner ;
     border-radius: variables.$border-radus-card;
-    width: 100%;
-    padding: 5rem;
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
+    padding: 0.9rem 2rem;
 
     .phone-text {
         display: flex;
@@ -26,6 +26,7 @@
 
     .i-phone {
         width: 20%;
+        margin-bottom: -10rem;
 
         img {
             width: 100%;
@@ -42,6 +43,14 @@
     display: flex;
     justify-content: space-between;
     height: 30vh;
+    gap: 0.5rem;
+
+    .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 
     .first-img {
         width: 50%;
@@ -56,6 +65,7 @@
         width: 50%;
         display: flex;
         flex-direction: column;
+        gap: 0.5rem;
 
         .second-img {
             height: 50%;
@@ -73,6 +83,43 @@
             background-size: cover;
             border-radius: 0.8rem;
             text-align: center;
+        }
+    }
+}
+
+// Section Features
+
+#features {
+    background-image: url(../img/wave.svg);
+
+    h2 {
+        text-align: end;
+    }
+
+    .features {
+        display: flex;
+        flex-direction: column;
+
+        .box-features {
+            display: flex;
+            justify-content: space-around;
+
+            .box-feature {
+                width: 20%;
+                text-align: center;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+
+                h3 {
+                    color: black;
+                }
+
+                img {
+                    width: 15%;
+                    filter: invert(52%) sepia(9%) saturate(3669%) hue-rotate(320deg) brightness(123%) contrast(81%);
+                }
+            }
         }
     }
 }
