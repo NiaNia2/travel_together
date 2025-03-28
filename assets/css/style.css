@@ -147,6 +147,28 @@ a {
   filter: invert(52%) sepia(9%) saturate(3669%) hue-rotate(320deg) brightness(123%) contrast(81%);
 }
 
+.lorem {
+  width: 80%;
+  background-color: #FA8072;
+  border-radius: 0.8rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.lorem h2 {
+  color: white;
+}
+.lorem p {
+  color: white;
+}
+.lorem .text-lorem {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.lorem .btn-lorem {
+  display: flex;
+}
+
 @font-face {
   font-family: "Lato";
   src: url(../fonts/Lato/Lato-Regular.ttf);
@@ -154,6 +176,34 @@ a {
 @font-face {
   font-family: "Lato-Bold";
   src: url(../fonts/Lato/Lato-Bold.ttf);
+}
+footer {
+  background-color: black;
+  color: white;
+}
+footer ul {
+  list-style: none;
+}
+footer .foot {
+  display: flex;
+  justify-content: space-between;
+}
+footer .foot .logo {
+  width: 20%;
+  height: 20%;
+}
+footer .foot .logo img {
+  width: 100%;
+}
+footer .foot div ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  color: white;
+}
+footer .foot-foot img {
+  width: 1%;
+  filter: invert(100%) sepia(56%) saturate(2%) hue-rotate(226deg) brightness(117%) contrast(100%);
 }
 
 /*# sourceMappingURL=style.css.map */

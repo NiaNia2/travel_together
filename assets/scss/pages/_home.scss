@@ -1,6 +1,8 @@
 @use "../abstracts/variables" as variables;
+// @use "../abstracts/mixins" as mixins;
 
 // section phone
+
 .phone {
     background-color: variables.$background-color-banner ;
     border-radius: variables.$border-radus-card;
@@ -16,8 +18,6 @@
         width: 50%;
         gap: 5rem;
 
-
-
         h1 {
             font-family: variables.$font-titre;
             font-size: 3rem;
@@ -32,7 +32,6 @@
             width: 100%;
             height: 100%;
             object-fit: cover;
-
         }
     }
 }
@@ -121,5 +120,35 @@
                 }
             }
         }
+    }
+}
+
+// section Lorem
+
+.lorem {
+    width: 80%;
+    background-color: variables.$background-color-banner;
+    border-radius: variables.$border-radus-card;
+
+    h2 {
+        color: white;
+    }
+
+    p {
+        color: white;
+    }
+
+    display: flex;
+    justify-content: space-evenly;
+
+    .text-lorem {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-lorem {
+
+        display: flex;
     }
 }
