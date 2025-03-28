@@ -90,6 +90,8 @@
 
 #features {
     background-image: url(../img/wave.svg);
+    padding-bottom: 9rem;
+    margin-bottom: 5rem;
 
     h2 {
         text-align: end;
@@ -129,6 +131,7 @@
     width: 80%;
     background-color: variables.$background-color-banner;
     border-radius: variables.$border-radus-card;
+    margin-top: -10rem;
 
     h2 {
         color: white;
@@ -148,7 +151,9 @@
     }
 
     .btn-lorem {
-
+        width: 50%;
         display: flex;
+        justify-content: flex-end;
+        align-items: center;
     }
 }
